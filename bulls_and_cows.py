@@ -82,7 +82,7 @@ def play():
                 else:
                     cows += 1
 
-        print(', '.join([get_identstr('cow', cows), get_identstr('bull', bulls)]))
+        print(', '.join([get_ident_str('cow', cows), get_ident_str('bull', bulls)]))
 
 
 def main():
